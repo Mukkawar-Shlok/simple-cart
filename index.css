@@ -1,0 +1,69 @@
+body {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+.inputBtn {
+  display: inline-block;
+  width: 20%;
+  border: 2px solid #ababab;
+  text-align: center;
+}
+.minus {
+  display: inline-block;
+  width: 20%;
+  border: 1px solid #ababab;
+  border-right: none;
+  text-align: center;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.plus {
+  display: inline-block;
+  width: 20%;
+  border: 1px solid #ababab;
+  border-left: none;
+  text-align: center;
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card {
+  background: transparent !important;
+}
+.footName {
+  position: sticky;
+  bottom: 0;
+  background-color: #ababab;
+}
+.container {
+  padding: 2rem 0rem;
+}
+
+.table-image {
+  thead {
+    td,
+    th {
+      border: 0;
+      color: #666;
+      font-size: 0.8rem;
+    }
+  }
+
+  td,
+  th {
+    vertical-align: middle;
+    text-align: center;
+
+    &.qty {
+      max-width: 2rem;
+    }
+  }
+}
+
+.price {
+  margin-left: 1rem;
+}
+
+.modal-footer {
+  padding-top: 0rem;
+}
